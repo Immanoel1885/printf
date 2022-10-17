@@ -31,6 +31,17 @@ char *rev_string(char *s)
           return (dest);
 }
 /**
+ * write_base - sends characters to be written on standard output
+ * @str: String to parse
+ */
+void write_base(char *str)
+{
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+		_write_char(str[i]);
+}
+/**
  * base_len - Calculates the length for an octal number
  * @num: The number for which the length is being calculated
  * @base: Base to be calculated by
