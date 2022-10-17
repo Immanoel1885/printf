@@ -26,11 +26,11 @@ int print_char(va_list);
 int print_string(va_list);
 int print_percent(va_list);
 
-/*Helper functions*/
+/*Helper functions
 unsigned int base_len(unsigned int, int);
 char *rev_string(char *);
 void write_base(char *str);
 char *_memcpy(char *dest, char *src, unsigned int n);
-int print_unsgined_number(unsigned int);
+int print_unsgined_number(unsigned int);*/
 
 #endif
