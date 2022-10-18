@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_write_char.c"
 
 static int hex_print(char c);
 
