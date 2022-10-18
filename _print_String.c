@@ -26,12 +26,12 @@ str = "(null)";
 }
 for (i = 0; str[i] != '\0'; i++)
 {
-if ((str[i] >= 32 && str[i] <= 47) || (str[i] >= 58 && str[i] <= 64) || (str[i] >= 91 && str[i] <= 96) || (str[i] >= 123 && str[i] <= 126))
+if (str[i] < 32 || str[i] >= 127)
 {
 _write_char('\\');
 _write_char('x');
 count += 2;
-count += _printf("%X", str[i]);
+count += _print_heX(str[i]);
 }
 else
 {
