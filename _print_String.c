@@ -1,9 +1,9 @@
-#include "main.h"
+/*#include "main.h"
 #include "_write_char.c"
 
 static int hex_print(char c);
 
-/**
+*
 <<<<<<< HEAD
  * print_String - prints special characters as \x
  * followed by ascii code in upper case
@@ -13,7 +13,7 @@ static int hex_print(char c);
 >>>>>>> c4454e7fe5bcc781d77d47a6b6104289d2491614
  * @list: the list of arguments
  * Return: the number of printed characters
- */
+ *
 
 int print_String(va_list list)
 {
@@ -50,7 +50,7 @@ return (count);
  * @c: char to print
  *
  * return: number of chars printed
- */
+ *
 static int hex_print(char c)
 {
 	int count;
@@ -67,4 +67,4 @@ static int hex_print(char c)
 			_write_char('0' + d[count]);
 	}
 	return (count);
-}
+}*/
