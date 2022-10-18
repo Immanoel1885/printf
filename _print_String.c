@@ -43,9 +43,7 @@ count++;
 }
 }
 return (count);
-}
-
-/**
+}**
  * hex_print - prints a chars ascii value in upper case hex
  * @c: char to print
  *
@@ -67,4 +65,5 @@ static int hex_print(char c)
 			_write_char('0' + d[count]);
 	}
 	return (count);
-}*/
+}
+*/
