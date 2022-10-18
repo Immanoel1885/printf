@@ -1,7 +1,13 @@
 #include "main.h"
 
 /**
- * print_String - print special characters as \x, floowed by ascii code in uppercase
+<<<<<<< HEAD
+ * print_String - prints special characters as \x
+ * followed by ascii code in upper case
+=======
+ * print_String - Prints special characters as \x
+ * followed by ascii code in upper case
+>>>>>>> c4454e7fe5bcc781d77d47a6b6104289d2491614
  * @list: the list of arguments
  * Return: the number of printed characters
  */
