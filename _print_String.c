@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_String - prints out a string, with non printable chracters printed, thus
- * followed by ASCII value in hexadecimal in uppercase, always 2 characters
+ * print_String - print special characters as \x, floowed by ascii code in uppercase
  * @list: the list of arguments
  * Return: the number of printed characters
  */
